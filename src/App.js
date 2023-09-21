@@ -1,10 +1,8 @@
-import './App.css';
+import Body from './components/Body';
 
 function App() {
   return (
-    <div className="text-3xl font-bold underline">
-      <h1>Let build a netflix with ai search functionalities</h1>
-    </div>
+    <Body/>
   );
 }
 
