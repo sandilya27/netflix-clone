@@ -81,7 +81,7 @@ const Login = () => {
     <div className="w-full h-screen bg-login-bg bg-cover relative">
       <div className="absolute top-0 left-0 w-full h-screen bg-gradient-to-t from-black bg-opacity-50"></div>
       <Header />
-      <div className="w-3/12 absolute top-[25%] left-[38%] ">
+      <div className="w-full md:w-3/12 absolute top-[25%] md:left-[38%] ">
         <form
           onSubmit={(e) => {
             e.preventDefault();

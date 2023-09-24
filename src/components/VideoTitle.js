@@ -1,10 +1,10 @@
 const VideoTitle = ({ title, overview }) => {
   return (
-    <div className="w-screen aspect-video pt-[15%] px-24 absolute text-white bg-gradient-to-r from-black">
-      <h1 className="text-6xl font-bold">{title}</h1>
-      <p className="py-6 text-lg w-1/4 text-ellipsis overflow-hidden">{overview}</p>
+    <div className="w-screen aspect-video pt-[25%] md:pt-[15%] px-6 md:px-24 absolute text-white bg-gradient-to-r from-black">
+      <h1 className="text-3xl md:text-6xl font-bold mb-2 md:mb-0">{title}</h1>
+      <p className="hidden md:inline-block py-6 text-lg w-1/4">{overview}</p>
       <div className="flex gap-2">
-        <button className="flex gap-1 items-center bg-white text-black p-4 px-12 text-xl rounded-lg hover:bg-opacity-80">
+        <button className="flex gap-1 items-center bg-white text-black py-2 md:py-4 px-3 md:px-6 text-xl rounded-lg hover:bg-opacity-80">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -19,7 +19,7 @@ const VideoTitle = ({ title, overview }) => {
           </svg>
           Play
         </button>
-        <button className="flex gap-1 items-center bg-gray-500 text-white p-4 px-6 text-xl bg-opacity-50 rounded-lg hover:bg-opacity-80">
+        <button className="hidden  md:flex gap-1 items-center bg-gray-500 text-white py-4 px-6 text-xl bg-opacity-50 rounded-lg hover:bg-opacity-80">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
