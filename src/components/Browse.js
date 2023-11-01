@@ -17,7 +17,7 @@ const Browse = () => {
   useUpcomingMovies();
 
   return (
-    <div>
+    <div className="scrollbar-hide">
       <Header />
       {showGptSearch ? (
         <GptSearch />
